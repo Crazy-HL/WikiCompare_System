@@ -1,0 +1,30 @@
+.superpowers/
+docs/superpowers/plans/
+tmp/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+**/.env
+!.env.example
+!**/.env.example
+wikitable-vue/client/dist/
+wikitable-vue/client/node_modules/
+wikitable-vue/client/node_modules/.cache/
+wikitable-vue/artifacts/
+wikitable-vue-experiment/client/dist/
+wikitable-vue-experiment/client/node_modules/
+wikitable-vue-experiment/node_modules/
+wikitable-vue-experiment/.pytest_cache/
+wikitable-vue-experiment/server/.pytest_cache/
+
+# Private participant data and runtime records must not be published.
+/wikitable-vue-experiment/server/experiment_data/
+answers.csv
+answers (*).csv
+answers_detail.csv
+submissions.csv
+submissions_summary.csv
+questionnaires.csv
+questionnaire_answers.csv
+exp-????????-????????.json
